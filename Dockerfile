@@ -1,4 +1,4 @@
-FROM golang:1.11-alpine
+FROM golang:1.11.5-alpine
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community"  >> /etc/apk/repositories
 RUN apk update

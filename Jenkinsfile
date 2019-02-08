@@ -2,10 +2,10 @@
 
 build {
   [
-    gitURL = 'https://github.com/joshchu00/docker-golang-kafka.git',
+    gitURL = 'https://github.com/joshchu00/docker-go-run-kafka.git',
     gitBranch = 'master',
     buildLanguage = '',
     buildImage = '',
-    dockerName = 'joshchu00/golang-kafka:1.11-alpine'
+    dockerName = 'joshchu00/go-run-kafka:1.11-alpine'
   ]
 }
